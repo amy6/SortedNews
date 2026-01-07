@@ -4,7 +4,7 @@ An Android application that displays a list of news articles, built using modern
 
 ## 📸 Screenshot
 
-<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/1ef23ed1-ff49-47be-a031-6125e34797c1" />
+<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/2595ceec-0238-4c27-a5c9-8973c8d548cb" />
 
 
 ## ✨ Features
