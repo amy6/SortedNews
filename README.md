@@ -1,4 +1,4 @@
-# Carousell News
+# Sorted News
 
 An Android application that displays a list of news articles, built using modern Android development practices.
 
