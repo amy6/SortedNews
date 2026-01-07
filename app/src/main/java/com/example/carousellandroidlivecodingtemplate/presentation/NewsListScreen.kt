@@ -33,6 +33,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
@@ -136,7 +137,8 @@ fun NewsListItem(news: News) {
                     text = news.title,
                     style = MaterialTheme.typography.titleLarge,
                     maxLines = 1,
-                    overflow = TextOverflow.Ellipsis
+                    overflow = TextOverflow.Ellipsis,
+                    fontWeight = FontWeight.Bold
                 )
                 Text(
                     text = news.description,
@@ -146,7 +148,8 @@ fun NewsListItem(news: News) {
                 Text(
                     text = formatTime(news.timeCreated),
                     style = MaterialTheme.typography.labelSmall,
-                    modifier = Modifier.padding(top = 8.dp)
+                    modifier = Modifier.padding(top = 8.dp),
+                    color = Color.Gray
                 )
             }
         }
